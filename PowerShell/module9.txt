@@ -1,0 +1,9 @@
+Bitcoin (?) is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network.[7] Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. The cryptocurrency was invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.[10] The currency began use in 2009[11] when its implementation was released as open-source software.[6]:?ch. 1?
+
+Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services. Bitcoin has been criticized for its use in illegal transactions, the large amount of electricity (and thus carbon footprint) used by mining, price volatility, and thefts from exchanges. Some investors and economists have characterized it as a speculative bubble at various times.
+
+Bitcoin has been described as an economic bubble by at least eight Nobel Memorial Prize in Economic Sciences.[12] Journalists, economists, investors, and the central bank of Estonia have voiced concerns that bitcoin is a Ponzi scheme.[13][14][15][16]
+
+The word bitcoin was defined in a white paper published on 31 October 2008.[4][17] It is a compound of the words bit and coin.[18] No uniform convention for bitcoin capitalization exists; some sources use Bitcoin, capitalized, to refer to the technology and network and bitcoin, lowercase, for the unit of account.[19] The Wall Street Journal,[20] The Chronicle of Higher Education,[21] and the Oxford English Dictionary[18] advocate the use of lowercase bitcoin in all cases.
+
+A few local and national governments are officially using Bitcoin in some capacity, with two countries, El Salvador and the Central African Republic, adopting it as a legal tender.
