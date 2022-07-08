@@ -6,3 +6,7 @@ result
 *.zip
 *text*
 launch.json
+/Vagrant/MultiBox/api/*
+/Vagrant/MultiBox/data/*
+.vagrant
+centos7-nginx.box
