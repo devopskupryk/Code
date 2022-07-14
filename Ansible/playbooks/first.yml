@@ -1,0 +1,19 @@
+---
+  - name: "My first playbook"
+    hosts: webservers
+    become: yes
+    user: vagrant
+
+    tasks:
+    - name: "Test responsibility"
+      ping:
+
+    - name: "Nginx"
+      ansible.builtin.systemd:
+        name: nginx.service
+        state: stopped
+
+    - name: "Create file"
+      file:
+        dest: '/var/www/test'
+        state: 'touch'

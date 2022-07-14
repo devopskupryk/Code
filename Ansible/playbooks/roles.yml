@@ -1,0 +1,6 @@
+---
+- hosts: mylaptop
+  #become: yes
+  
+  roles:
+  - testrole

@@ -1,0 +1,12 @@
+[all]
+localhost
+
+[mylaptop]
+192.168.1.100   ansible_connection=local
+
+[webservers]
+lemp ansible_ssh_host=192.168.56.10
+
+[mylaptop:vars]
+temp_file = /tmp/test3
+file_state = touch

@@ -1,0 +1,21 @@
+---
+
+- name: First ever playbook
+  hosts: all
+  connection: local
+  become: yes
+
+  tasks:
+    - name: Install curl
+      when: ansible_os_family == "Debian"
+      apt: 
+        name: curl
+        state: latest
+        update_cache: yes
+      
+    - name: Install wget
+      when: ansible_os_family == "Debian"
+      apt: 
+        name: wget
+        state: latest
+        update_cache: yes
