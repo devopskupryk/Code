@@ -1,0 +1,33 @@
+---
+# Installing nginx on remote server and creating a default index.html
+# Run: ansible-playbook 04_ansible_practice.yml -i ../04_ap_inventory  
+
+- hosts: webservers
+  become: yes
+  user: vagrant
+  serial: 1
+    
+  tasks:
+    - name: Install Nginx  
+      apt:
+       name: nginx
+       state: latest
+       update_cache: yes
+
+    - name: Create index.html using tamplate
+      template: 
+        src: 04_ap_index.j2
+        dest: /var/www/html/index.html
+    
+    - name: Create conf.conf using tamplate
+      template: 
+        src: 04_ap_conf.j2
+        dest: /etc/nginx/conf.d/conf.conf
+      notify:
+        - restart nginx
+  
+  handlers:
+    - name: restart nginx
+      service:
+        name: nginx
+        state: reloaded
