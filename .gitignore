@@ -10,3 +10,5 @@ launch.json
 /Vagrant/MultiBox/data/*
 .vagrant
 centos7-nginx.box
+credentials
+/Terraform/.terraform/*
